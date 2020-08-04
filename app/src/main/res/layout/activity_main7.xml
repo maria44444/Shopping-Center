@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity"
+    android:id="@+id/li"
+    android:visibility="invisible"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Confirmation Mail has been sent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#076159"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can also check from spam mails"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:textStyle="bold|italic"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your Order"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#076159"
+            android:textStyle="bold|italic"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-50dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="-30dp"
+            android:src="@drawable/source"></pl.droidsonroids.gif.GifImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/smilie"
+
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt; Back to Home Page"
+        android:textColor="#2196F3"
+        android:onClick="Back"
+        ></TextView>
+</LinearLayout>

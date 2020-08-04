@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/andriodpic1"
+            android:id="@+id/crtimg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/crtimg"
+            android:layout_marginTop="45dp"
+            android:text="Lawn Shirt"
+            android:textSize="18sp"
+            android:id="@+id/crtnam"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/crtimg"
+            android:layout_marginTop="85dp"
+            android:text="Rs. 2899"
+            android:textSize="18sp"
+            android:id="@+id/crtpr"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/crtimg"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="20dp"
+
+            android:gravity="center"
+            android:id="@+id/minus1"
+            android:text="-"/>
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/dig1"
+            android:layout_toRightOf="@+id/crtimg"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="65dp"
+            android:gravity="center"
+            android:text="0"/>
+        <Button
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/crtimg"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/plus1"
+            android:gravity="center"
+            android:text="+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/idimg"
+            android:layout_marginLeft="150dp"
+            android:visibility="invisible"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

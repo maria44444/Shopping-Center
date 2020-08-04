@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/andriodpic1"
+        android:id="@+id/chkimg1"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-95dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/circular_textview"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:id="@+id/digit1"
+        />
+
+    <TextView
+        android:id="@+id/chkname"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/chkpri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/chkidimg1"
+        android:layout_marginLeft="150dp"
+        android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>

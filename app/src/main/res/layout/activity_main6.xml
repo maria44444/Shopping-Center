@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/listid1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></ListView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="50dp"
+                android:paddingLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subtotal "
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/subtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingLeft="220dp"
+                    android:textColor="@color/black"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shippping "
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free "
+                    android:textSize="18sp"
+                    android:paddingLeft="210dp"
+                    android:textColor="@color/black"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grand total "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/showtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="140dp"
+                    android:textColor="#F44336"
+                    ></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cart"
+                    android:textSize="22sp"
+                    android:textColor="#3F51B5"
+
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  >  "
+                    android:textSize="22sp"
+                    android:textColor="#3F51B5"
+                    ></TextView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Information"
+                    android:textSize="22sp"
+                    android:textColor="#3F51B5"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  >  "
+                    android:textSize="22sp"
+                    android:textColor="#3F51B5"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/movepay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Payment"
+                    android:textSize="22sp"
+                    android:textColor="#F44336"
+                    ></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    >
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Full Name"
+                        android:textSize="22sp"
+                        android:textColor="#05443E"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tvname"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#0D0D0E"
+                        android:textStyle="italic"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="22sp"
+                        android:textColor="#05443E"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tvadd"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#0D0D0E"
+                        android:textStyle="italic"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        android:textSize="22sp"
+                        android:textColor="#05443E"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tvcity"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#0D0D0E"
+                        android:textStyle="italic"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textSize="22sp"
+                        android:textColor="#05443E"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tvemail"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#0D0D0E"
+                        android:textStyle="italic"
+                        android:text="mariabhatti444@gmail.com"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No."
+                        android:textSize="22sp"
+                        android:textColor="#05443E"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tvpn"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#0D0D0E"
+                        android:textStyle="italic"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btcom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:background="#098B9C"
+                android:textColor="@color/white"
+                android:text="Complete Order"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:onClick="Move"
+                ></Button>
+
+
+                <TextView
+                    android:id="@+id/moveinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="200dp"
+                    android:onClick="Move"
+                    android:text="&lt;  Return to Information"
+                    android:textColor="#258DE0"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
